@@ -7,7 +7,7 @@ Javascript, Node-Spotify-API, Axios, Moment, DotEnv, OMDB API, Bands In Town API
 ## Acknowledgement
 Thanks to the instructors and teaching assistants at Columbia Univeristy Coding Bootcamp.
 
-## LICENSES
+## Licenses
 ISC, MIT, BSD-2-Clause
 
 
