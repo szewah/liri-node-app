@@ -9,6 +9,14 @@ Javascript, Node-Spotify-API, Axios, Moment, DotEnv, OMDB API, Bands In Town API
 - Spotify-this: https://vimeo.com/325730085
 - Do-what-it-says: https://vimeo.com/325730825
 
+## Installation
+
+```
+$ cd ../liri_app
+$ npm install
+$ node liri.js
+```
+
 ## Acknowledgement
 Thanks to the instructors and teaching assistants at Columbia Univeristy Coding Bootcamp.
 
