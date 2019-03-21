@@ -104,4 +104,5 @@ function commandInput(command, input) {
     }   
 }
 
+//initialize function
 commandInput(command, input)
