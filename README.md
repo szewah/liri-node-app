@@ -2,7 +2,7 @@
 LIRI is a command line node app that takes in parameters and gives you back data.
 
 ## Built with 
-Javascript, Node-Spotify-API, Axios, Moment, DotEnv, OMDB API, Bands In Town API
+Javascript, Node-Spotify-API, Axios, Moment, DotEnv, Colors, OMDB API, Bands In Town API
 
 - Movie-this: https://vimeo.com/325727391
 - Concert-this: https://vimeo.com/325728618
