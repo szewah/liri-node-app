@@ -1,3 +1,7 @@
+//add color to text
+let colors = require('colors');
+// let color = Color('rgb(255,255,255)');
+//
 //require .env file
 require("dotenv").config();
 //link key page;
@@ -23,15 +27,15 @@ function movies() {
         var queryURL = "https://www.omdbapi.com/?t=" + input + "&y=&plot=short&apikey=trilogy"; 
         axios.get(queryURL)
         .then(function(response) {
-            console.log('Title: ' + response.data.Title);
-            console.log('Year: ' + response.data.Year);
-            console.log('IMDB rating: ' + response.data.imdbRating)
+            console.log(colors.italic('Title: ') + colors.cyan(response.data.Title));
+            console.log(colors.italic('Year: ') + colors.cyan(response.data.Year));
+            console.log(colors.italic('IMDB rating: ') + colors.cyan(response.data.imdbRating));
             const rottenTomatoes = response.data.Ratings[1];
-            console.log('Rotten Tomatoes: ' + rottenTomatoes["Value"]);
-            console.log('Country made: ' + response.data.Country);
-            console.log('Language: ' + response.data.Language);
-            console.log('Plot: ' + response.data.Plot);
-            console.log('Cast: ' + response.data.Actors);
+            console.log(colors.italic('Rotten Tomatoes: ') + colors.cyan(rottenTomatoes["Value"]));
+            console.log(colors.italic('Country made: ') + colors.cyan(response.data.Country));
+            console.log(colors.italic('Language: ') + colors.cyan(response.data.Language));
+            console.log(colors.italic('Plot: ') + colors.yellow(response.data.Plot));
+            console.log(colors.italic('Cast: ' ) + colors.cyan(response.data.Actors));
         })
         .catch(function(err) {
             console.log(err);
